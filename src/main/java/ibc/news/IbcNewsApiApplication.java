@@ -1,0 +1,13 @@
+package ibc.news;
+
+import org.springframework.boot.SpringApplication;
+import org.springframework.boot.autoconfigure.SpringBootApplication;
+
+@SpringBootApplication
+public class IbcNewsApiApplication {
+
+	public static void main(String[] args) {
+		SpringApplication.run(IbcNewsApiApplication.class, args);
+	}
+
+}
